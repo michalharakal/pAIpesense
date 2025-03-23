@@ -6,6 +6,10 @@
 
 pAIpesense is envisioned as an intelligent system utilizing IoT sensors and embedded Artificial Intelligence to detect water leaks and pipe damages at an early stage. The project aims to proactively identify issues locally, avoiding potential water damage, reducing maintenance costs, and maintaining infrastructure integrity without relying on cloud-based AI. Due to limited initial data, human oversight is incorporated to manage false positives and facilitate continuous learning. Additionally, pAIpesense is designed to integrate seamlessly with smart home platforms, such as Home Assistant, and function as an agent within multi-agent systems using protocols like the [Language Model Operating System (LMOS)](https://github.com/eclipse-lmos/lmos) for inter-agent communication.
 
+[![LMOS Logo](https://eclipse.dev/lmos/img/lmos.svg)](https://eclipse.dev/lmos)
+
+
+
 ## Potential Features
 
 - Real-time monitoring of pipes
