@@ -1,7 +1,3 @@
-Here’s a detailed response to your query about creating Mermaid diagrams to describe a device architecture using Zephyr OS and WAMR, as well as visualizing the development process. I’ll provide two Mermaid diagrams—one for the device architecture and one for the development process—along with explanations to ensure clarity.
-
----
-
 ### Device Architecture Diagram
 
 The device architecture diagram illustrates how the hardware, operating system, runtime, and application logic are layered in a system using Zephyr OS and the WebAssembly Micro Runtime (WAMR) on an Arduino Nano 33 BLE Sense.
@@ -72,10 +68,7 @@ This linear flowchart makes it easy to follow the sequence of steps from coding 
 ---
 
 ### Additional Notes
-- **Why Mermaid Diagrams?**: Mermaid diagrams use simple text-based syntax to create clear, visual representations, making them ideal for documenting complex systems and processes like this one.
 - **Practical Tips**:
   - Ensure you have the Zephyr SDK and necessary compilers installed (see [Zephyr Getting Started](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)).
   - Be prepared to write glue code to connect the WASM module to Zephyr’s hardware drivers.
   - Use debugging tools like Zephyr’s logging or a hardware debugger to troubleshoot issues.
-
-These diagrams and explanations should help you understand both the structure of a device using Zephyr and WAMR and the process to develop and deploy an application to it. Let me know if you need further clarification!
