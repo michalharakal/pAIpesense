@@ -1,4 +1,6 @@
-Here is a Markdown table summarizing the technical specifications of the Arduino Nano 33 BLE Sense:
+# Nano 33 BLE Sense
+
+https://docs.arduino.cc/hardware/nano-33-ble-sense/#tech-specs
 
 | Specification                         | Details                                                                                                                                   |
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
