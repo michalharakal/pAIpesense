@@ -1,0 +1,16 @@
+/ {
+    aliases {
+        lsm6dsl0 = &lsm6dsl0;
+    };
+};
+
+&i2c0 {
+    status = "okay";
+    clock-frequency = <I2C_BITRATE_FAST>;
+
+    lsm6dsl0: lsm6dsl@6b {
+        compatible = "st,lsm6dsl";
+        reg = <0x6b>;
+        irq-gpios = <&gpio0 7 GPIO_ACTIVE_HIGH>;
+    };
+};

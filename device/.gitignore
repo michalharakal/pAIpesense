@@ -1,0 +1,69 @@
+# Rust specific ignores
+target/
+**/*.rs.bk
+Cargo.lock
+*.pdb
+app/pkg/
+
+# Zephyr specific ignores
+/build/
+/build-*/
+/twister-out*/
+*.o
+*.a
+*.d
+*.cmd
+*.log
+*.pyc
+__pycache__/
+.pytest_cache/
+/.west/
+/zephyr-workspace/
+/modules/
+/tools/
+/bootloader/
+/samples/
+
+# WAMR specific
+*.wasm
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build artifacts
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Dependencies
+/deps/
+/downloads/
+
+# Debug files
+*.dSYM/
+
+# Environment files
+.env
+.env.*
+
+# Generated files
+/generated/
+/out/
+/dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# System files
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
